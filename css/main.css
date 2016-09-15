@@ -1,0 +1,50 @@
+body{
+	font-family: 'Raleway', sans-serif;
+	background-color: #f7f7f7;
+	border: 5px solid #f1888a;
+	padding: 40px 0;
+}
+header>h1{
+	margin-bottom: 50px;
+}
+
+img.logo{
+	width: 128px;
+	height: 230px;
+}
+
+img.social{
+	width: 30px;
+	height: 30px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+h1{
+	color: #fac9cb;
+	font-weight: bold;
+}
+h2,h3{
+	color: #f1888a;
+}
+form.col-md-11{
+	/* width: 85%; */
+}
+.form-control{
+	border: 1px solid #fac9cb;
+}
+.form-control:focus{
+    border-color: #f7acad;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(247, 172, 173, 0.6);
+}
+
+.btn-default{
+    border-color: #fac9cb;
+    color: #585858;
+}
+.btn-default:hover{
+    border-color: #fac9cb;
+	background-color: #fac9cb;
+	color: #fff;
+	transition: .4s;
+}
